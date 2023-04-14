@@ -926,7 +926,7 @@ class CompatButton : Button() {
 }
 ```
 
-如果想要类的子类重写该方法的实现，可以显式地将重写的成员标记为 final
+如果不想要类的子类重写该方法的实现，可以显式地将重写的成员标记为 final
 
 ```kotlin
 open class Button : View() {
